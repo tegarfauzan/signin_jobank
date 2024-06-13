@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <title>Login</title>
+  </head>
+  <body class="font-poppins text-[#0E0140] overflow-x-hidden overflow-y-hidden bg-[#FFFFFF] min-h-screen flex flex-col">
+    <main class="flex">
+      <div class="bgImage h-screen w-[640px] flex justify-center items-center overflow-hidden relative">
+        <img src="images/Smiley Woman on Floor 1.png" alt="baground Woman Smile on Floor" class="object-cover w-full h-full " />
+        <div class="containerTesti absolute p-5 rounded-[20px] left-[30px] right-[30px] bottom-[30px] bg-[#FFFFFF] border border-[#E8E4F8] shadow-[0px_8px_30px_0px_rgba(14,1,64,0.05)]">
+          <article>
+            <p class="mb-4 font-semibold text-base leading-8">Berkat Jobank saya bisa bekerja dari rumah dengan santai tanpa harus macet-macetan. Seluruh lokernya juga aman bebas dari penipuan yang sering terjadi saat ini di seluruh dunia.</p>
+            <div class="flex items-center justify-between">
+              <div class="profil flex items-center gap-[14px]">
+                <div class="w-[60px] h-[60px] flex justify-center items-center overflow-hidden rounded-full">
+                  <img src="images/Smiley Woman on Floor 1 (1).png" alt="Profil Image" class="object-cover w-full h-full rounded-full" />
+                </div>
+                <div class="name">
+                  <h3 class="font-semibold text-base leading-[24px]">Shayna Angga</h3>
+                  <p class="font-normal text-sm leading-[21px]">Programmer</p>
+                </div>
+              </div>
+              <div class="stars flex items-center justify-center gap-[2px]">
+                <img src="images/Star 6.svg" alt="star" />
+                <img src="images/Star 6.svg" alt="star" />
+                <img src="images/Star 6.svg" alt="star" />
+                <img src="images/Star 6.svg" alt="star" />
+                <img src="images/Star 6.svg" alt="star" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="form  w-full flex flex-col justify-center  relative">
+        <div class="w-[153px] h-[40px] absolute left-[70px] top-[140.5px] flex justify-center items-center overflow-hidden"><img src="images/Frame 6.svg" alt="Company Logo" class="object-contain w-full h-full"></div>
+        <div class="w-full h-screen flex justify-center mt-[250.5px]">
+        <form action="" method="post">
+          <fieldset>
+            <legend class="font-bold text-[26px] leading-[39px] mb-[30px]">Sign In</legend>
+            <label for="email" class="font-semibold text-base leading-[24px] mb-2">Email Address</label>
+            <div class="containerInput relative group mb-[30px]">
+              <input type="email" id="email" name="email" placeholder="Write your email addresss" class="input placeholder:text-base placeholder:font-normal placeholder:leading-[24px] border border-[#0E0140] w-[500px] h-[52px] pl-[58px] text-[#0E0140] font-semibold text-base leading-6 rounded-[50px] focus:ring-2  focus:ring-[#FF6B2C] focus:outline-none focus:border-none transition duration-300 ease-in-out" autocomplete="off" required>
+              <div class="containerSvgSms absolute left-6 top-1/2 -translate-y-1/2">
+                <img src="images/sms.svg" alt="svg Sms">
+              </div>
+            </div>
+            <!-- Password  -->
+            <label for="Password" class="font-semibold text-base leading-[24px] mb-2">Password</label>
+            <div class="containerInput relative group mb-2">
+              <input type="password" id="password" name="password" placeholder="Write your password" class="input placeholder:text-base placeholder:font-normal placeholder:leading-[24px] border border-[#0E0140] w-[500px] h-[52px] pl-[58px] text-[#0E0140] font-semibold text-base leading-6 rounded-[50px] focus:ring-2  focus:ring-[#FF6B2C] focus:outline-none focus:border-none transition duration-300 ease-in-out" autocomplete="off" required>
+              <div class="containerSvgSms absolute left-6 top-1/2 -translate-y-1/2">
+                <img src="images/lock.svg" alt="svg Sms">
+              </div>
+            </div>
+            <a href="#" class="font-normal underline block text-sm leading-[21px] mb-[30px]">Forgot Password</a>
+            <button type="submit" class="w-[500px] h-[52px] bg-[#FF6B2C] rounded-[50px] text-white font-semibold text-base leading-[24px] mb-3">Sign In to My Account</button>
+            <a href="#" class="w-[500px] h-[52px] border border-[#0E0140] flex justify-center items-center rounded-[50px] font-semibold text-base leading-[24px]">Create New Account</a>
+          </fieldset>
+        </form>
+      </div>
+      </div>
+    </main>
+  </body>
+</html>
